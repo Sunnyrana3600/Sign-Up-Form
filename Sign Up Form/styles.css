@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+:root{
+    --background1: #f8f9fa;
+    --gap:3rem;
+    --fontcolor:#570029;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+#container{
+    display: flex;
+}
+
+/*Left*/
+.left{
+    background-color: black;
+    background-image: url(images/blackrose.jpg);
+    height: 100vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+
+.logo-text{
+    height:15vh;
+    width: 19vw;;
+    font-size: 5rem;
+    color: var(--fontcolor);
+    font-family:'Qwitcher Grypen', cursive;
+    position: absolute;
+    top:80%;
+    left:30%;
+    
+}
+.credit{
+    font-size: .8rem;
+    color: var(--fontcolor);
+    position: absolute;
+    top:95%;
+    right:10%
+    
+    
+}
+a { 
+    color: var(--fontcolor);
+}
+
+
+
+/* Right */
+
+.top{
+    width: 100%;
+    height: 200px;
+    background-color: var(--background1);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.text{
+   padding-top: 50px;
+   padding-left: 50px ;
+   font-size: 1.5rem;
+
+}
+.bottomText{
+    margin-top: 15px;
+}
+
+.middle{
+    padding-left: 50px ;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+label{
+    color: var(--fontcolor);
+    
+}
+input{
+    display: block;
+    margin-bottom: 30px;
+}
+input:invalid {
+    border-color: red;
+  }
+  
+  
+  
+
+.first{
+    display: flex;
+    gap: var(--gap);
+}
+.second{
+    display: flex;
+    gap: var(--gap);
+}
+.third{
+    display: flex;
+    gap: var(--gap);
+}
+
+  
+
+/* Bottom Section */
+.bottom{
+    margin-top: 3px;
+    padding-left: 50px ;
+    padding-top: 20px;
+    height: 5%;
+    background-color: var(--background1);
+
+}
+
+button{
+    font-size: 12px;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: var(--fontcolor);
+    color: white;
+    border-style: none;
+    margin-bottom: 20px;
+    
+}
+
+span{
+    color: var(--fontcolor);
+    font-weight: bold;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width:1216px){
+    .text{
+        position: relative;
+        bottom:40px;
+    }
+   
+    
+    
+    .odin-text{
+        font-size: 4rem;
+        position: relative;
+        
+
+    }
+}
+@media (max-width:986px){
+    
+    .odin-text{
+        font-size: 3.2rem;
+        position: relative;
+        right: 20%;
+        
+
+    }
+}
+
+
+
+
+
+
+ 
+
+
+
+
